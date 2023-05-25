@@ -1,0 +1,161 @@
+C:\Users\Mostafa\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\Mostafa\PycharmProjects\pythonProject\fineTuningModel.py
+{
+  "data": [
+    {
+      "created_at": 1682360100,
+      "fine_tuned_model": null,
+      "hyperparams": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-tmZ4hJAQIoOnjOOpgC1xijGh",
+      "model": "davinci",
+      "object": "fine-tune",
+      "organization_id": "org-EupG9wJOx9ttKMyopsaaG2in",
+      "result_files": [],
+      "status": "failed",
+      "training_files": [
+        {
+          "bytes": 274,
+          "created_at": 1682360099,
+          "filename": "file",
+          "id": "file-IwESJmhWAuPeKcxowknd4ZZl",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1682361922,
+      "validation_files": []
+    },
+    {
+      "created_at": 1682360163,
+      "fine_tuned_model": "davinci:ft-personal-2023-04-24-18-48-26",
+      "hyperparams": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-sudsZLihWtkJBKYLXr2goQtX",
+      "model": "davinci",
+      "object": "fine-tune",
+      "organization_id": "org-EupG9wJOx9ttKMyopsaaG2in",
+      "result_files": [
+        {
+          "bytes": 477,
+          "created_at": 1682362108,
+          "filename": "compiled_results.csv",
+          "id": "file-yfRScOJVYTmKatVjcSfIAE0R",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 274,
+          "created_at": 1682360162,
+          "filename": "file",
+          "id": "file-0Rel8XKnqhq5peO8MQMLxBzz",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1682362108,
+      "validation_files": []
+    },
+    {
+      "created_at": 1682360222,
+      "fine_tuned_model": "davinci:ft-personal-2023-04-24-18-54-07",
+      "hyperparams": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-djJx2fkS1p9e0ISSFOi5ZQY7",
+      "model": "davinci",
+      "object": "fine-tune",
+      "organization_id": "org-EupG9wJOx9ttKMyopsaaG2in",
+      "result_files": [
+        {
+          "bytes": 476,
+          "created_at": 1682362448,
+          "filename": "compiled_results.csv",
+          "id": "file-xFPXAYJhhtsKJLFnTjXa5JSM",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 274,
+          "created_at": 1682360222,
+          "filename": "file",
+          "id": "file-C2kYU7Ow97xwtKkmxmqky0iq",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1682362449,
+      "validation_files": []
+    },
+    {
+      "created_at": 1682361778,
+      "fine_tuned_model": "davinci:ft-personal-2023-04-24-18-50-44",
+      "hyperparams": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-KXWuFeJfhFTDxPvRUKsj9zYd",
+      "model": "davinci",
+      "object": "fine-tune",
+      "organization_id": "org-EupG9wJOx9ttKMyopsaaG2in",
+      "result_files": [
+        {
+          "bytes": 669,
+          "created_at": 1682362245,
+          "filename": "compiled_results.csv",
+          "id": "file-BTnUF84f74WrOVuf2MYZyKTy",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 361,
+          "created_at": 1682361778,
+          "filename": "file",
+          "id": "file-i8Ja68f4yRCsKXHJvtaQ4wiC",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1682362246,
+      "validation_files": []
+    }
+  ],
+  "object": "list"
+}
+
+Process finished with exit code 0

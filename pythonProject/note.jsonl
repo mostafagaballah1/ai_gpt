@@ -1,0 +1,52 @@
+{
+  "bytes": 361,
+  "created_at": 1682361778,
+  "filename": "file",
+  "id": "file-i8Ja68f4yRCsKXHJvtaQ4wiC",
+  "object": "file",
+  "purpose": "fine-tune",
+  "status": "uploaded",
+  "status_details": null
+}
+
+ Fine Tune Model Response
+
+{
+  "created_at": 1682361778,
+  "events": [
+    {
+      "created_at": 1682361778,
+      "level": "info",
+      "message": "Created fine-tune: ft-KXWuFeJfhFTDxPvRUKsj9zYd",
+      "object": "fine-tune-event"
+    }
+  ],
+  "fine_tuned_model": null,
+  "hyperparams": {
+    "batch_size": null,
+    "learning_rate_multiplier": null,
+    "n_epochs": 4,
+    "prompt_loss_weight": 0.01
+  },
+  "id": "ft-KXWuFeJfhFTDxPvRUKsj9zYd",
+  "model": "davinci",
+  "object": "fine-tune",
+  "organization_id": "org-EupG9wJOx9ttKMyopsaaG2in",
+  "result_files": [],
+  "status": "pending",
+  "training_files": [
+    {
+      "bytes": 361,
+      "created_at": 1682361778,
+      "filename": "file",
+      "id": "file-i8Ja68f4yRCsKXHJvtaQ4wiC",
+      "object": "file",
+      "purpose": "fine-tune",
+      "status": "uploaded",
+      "status_details": null
+    }
+  ],
+  "updated_at": 1682361778,
+  "validation_files": []
+}
+
